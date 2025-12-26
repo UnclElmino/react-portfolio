@@ -1,0 +1,20 @@
+class Emilio Imam {
+  constructor() {
+    this.name = 'Emilio Imam'
+    this.dayOfBirthTimestamp = 970270200
+    this.email = 'emilio.imam09@gmail.com'
+  }
+  workExperience() {
+    return [
+      { '2025-2025' : 'Frontend Development Intern - iTransition (Remote)' }
+    ]
+  }
+  education() {
+    return [
+      { '2022-2025': 'Seneca Polytechnic - Toronto, Canada - Diploma, Computer Programming (IT)' }
+    ]
+  }
+  skills() {
+    return [ 'HTML/CSS/JS', 'Node.js', 'Bootstrap/Tailwind', 'npm/yarn/pnpm', 'Docker', 'Web-extensions', 'PHP', 'MySQL/MongoDB', 'Wordpress', 'Photoshop', 'Illustrator', 'After Effects', 'Premiere', 'Motion design', 'UX/UI', 'C++', 'Unity', 'Git/GitHub', 'React' ] ]
+  }
+}
