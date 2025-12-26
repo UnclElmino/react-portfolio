@@ -34,7 +34,7 @@ export const NavBar = () => {
                         <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : ''} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
                         <Nav.Link href="#projects" className={activeLink === 'projects' ? 'active navbar-link' : ''} onClick={() => onUpdateActiveLink('projects')}>Projects</Nav.Link>
                         <Nav.Link href="#about" className={activeLink === 'about' ? 'active navbar-link' : ''} onClick={() => onUpdateActiveLink('about')}>About</Nav.Link>
-                        <Nav.Link href="https://docs.google.com/document/d/1YF9VYw1lxzy9Mo4eIa_ZiyV3htKdbOer/edit?usp=sharing&ouid=108570586163527687738&rtpof=true&sd=true" >{'{ Resume }'}</Nav.Link>
+                        <Nav.Link href="https://drive.google.com/file/d/10sYNIZG398MAVCndEcxBAS6rt-AQMx1X/view?usp=sharing" >{'{ Resume }'}</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
