@@ -10,18 +10,20 @@ import { Footer } from './components/Footer';
 function App() {
   return (
     <div className="App">
-      <NavBar />
+      <div id='home'>
+        <NavBar />
+      </div>
       <div className="hero-section">
         <Hero_Section />
       </div>
       <Carousel />
-      <div>
+      <div id='projects'>
         <h1 className="headers">/Projects</h1>
       </div>
       <div>
         <Cards />
       </div>
-      <div>
+      <div id='about'>
         <h1 className="headers-about">/About</h1>
       </div>
       <div>
